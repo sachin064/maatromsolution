@@ -1,8 +1,7 @@
 import json
 from dateutil.parser import parse
-from flask import Flask, request, jsonify, make_response, Response
+from flask import Flask, request,make_response, Response
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import Integer, ForeignKey, String, Column
 from flask_migrate import Migrate
 from newsapi import NewsApiClient
 import requests
@@ -69,11 +68,23 @@ def category_post():
     return make_response({'message': "category added succesfully"})
 
 
-
-
-
-
-
+@app.route('/api/list-news', methods=['POST'])
+def new_list():
+    categories=(request.args.get('category').split(','))
+    data = []
+    for catego in list(categories):
+        new_cat = News_Data.query.filter_by(category=catego).all()
+        for i in new_cat:
+            l=({
+                'author': i.author,
+                'title': i.title,
+                'description': i.description,
+                'published_at':i.published_at,
+                'url_image': i.url_image,
+                'category': i.category
+            })
+            data.append(l)
+    return make_response({'message':data})
 
 
 
