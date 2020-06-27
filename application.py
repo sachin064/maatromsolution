@@ -87,7 +87,7 @@ def new_list():
                 'category': i.category
             })
             data.append(l)
-    return make_response({'message': data})
+    return make_response({'news_data': data})
 
 
 if __name__ == '__main__':
