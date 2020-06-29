@@ -38,12 +38,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="58" />
-          <entry key="py" value="2913" />
+          <entry key="py" value="2974" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2971" />
+          <entry key="Python" value="3032" />
         </counts>
       </usages-collector>
     </session>
@@ -90,11 +90,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1593354976906" expanded="true" signature="1523:1719" ph="..." />
+                <marker date="1593355397214" expanded="true" signature="1818:2129" ph="..." />
               </folding>
             </state>
           </provider>
@@ -134,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -151,11 +150,6 @@
             <path>
               <item name="newapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="newapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +212,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24479167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -449,11 +442,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1593354976906" expanded="true" signature="1523:1719" ph="..." />
+            <marker date="1593355397214" expanded="true" signature="1818:2129" ph="..." />
           </folding>
         </state>
       </provider>

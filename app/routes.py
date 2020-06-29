@@ -10,7 +10,7 @@ from app import app, db
 @app.route('/api/fetch_news', methods=['GET'])
 def query_test():
     try:
-        category = request.args['q']
+        category = request.args['category']
         date = request.args['date']
         data = requests.get(
             f"http://newsapi.org/v2/everything?q={category}&date={date}&apiKey=25e1b68d930346689d93ca5c9d6498e1")
